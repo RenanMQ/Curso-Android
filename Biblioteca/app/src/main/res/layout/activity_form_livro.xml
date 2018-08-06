@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormLivro"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo do livro" />
+
+    <EditText
+        android:id="@+id/editAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do autor" />
+
+    <EditText
+        android:id="@+id/editEditora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Editora" />
+
+    <EditText
+        android:id="@+id/editAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnVariavel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
